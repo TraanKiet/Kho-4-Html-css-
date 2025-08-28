@@ -45,6 +45,7 @@ p {
   font-size: 20px;
   color: white;
   font-family: "Times New Roman";
+  padding: 40px;
 }
 .text2 {
   font-size: 23px;
@@ -56,5 +57,21 @@ p {
   color: white;
   font-family: "Times New Roman";
   max-width: 960px;
+  padding: 40px;
+}
+.logo1,
+.logo2 {
+  height: 30px;
+  width: auto;
+  vertical-align: middle; /* Căn logo thẳng hàng với chữ */
+  margin-right: 10px;
+}
+.text {
+  font-size: 30px;
+  color: rgb(221, 130, 18);
+  font-family: "Times New Roman", Times, serif;
+  vertical-align: middle; /* Căn chữ thẳng hàng với logo */
+}
+.pic1 {
   padding: 40px;
 }
