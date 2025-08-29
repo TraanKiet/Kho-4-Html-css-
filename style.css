@@ -52,8 +52,9 @@ p {
   color: rgb(221, 130, 18);
   font-family: "Times New Roman";
 }
-.text3 {
-  font-size: 19px;
+.text3,
+.text7 {
+  font-size: 20px;
   color: white;
   font-family: "Times New Roman";
   max-width: 960px;
@@ -66,12 +67,52 @@ p {
   vertical-align: middle; /* Căn logo thẳng hàng với chữ */
   margin-right: 10px;
 }
-.text {
+.text,
+.text6 {
   font-size: 30px;
   color: rgb(221, 130, 18);
   font-family: "Times New Roman", Times, serif;
   vertical-align: middle; /* Căn chữ thẳng hàng với logo */
 }
-.pic1 {
+.text4 {
+  text-align: right;
+  font-size: 30px;
   padding: 40px;
+  color: rgb(221, 130, 18);
+  font-family: "Times New Roman", Times, serif;
+}
+.text5 {
+  text-align: right;
+  padding: 40px;
+  font-size: 20px;
+  max-width: 1500px;
+  color: white;
+  font-family: "Times New Roman";
+}
+.pic1,
+.pic3 {
+  padding: 40px;
+}
+.pic2 {
+  float: right;
+  margin-left: 25px;
+  padding: 40px;
+}
+hr {
+  clear: both;
+}
+.box2 {
+  clear: both;
+}
+.boxpicture {
+  display: flex; /* Bật chế độ Flexbox cho phần tử cha */
+  justify-content: flex-start; /* Hoặc 'center', 'flex-start', 'space-around' */
+  /* Căn chỉnh các phần tử con */
+  align-items: center;
+}
+.boxpicture img {
+  padding: 40px;
+  width: 10%; /* Đảm bảo mỗi ảnh có chiều rộng bằng nhau */
+  width: 400px; /* Chiều rộng mặc định cho tất cả ảnh */
+  height: auto; /* Chiều cao tự động để giữ tỉ lệ */
 }
