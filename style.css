@@ -116,3 +116,6 @@ hr {
   width: 400px; /* Chiều rộng mặc định cho tất cả ảnh */
   height: auto; /* Chiều cao tự động để giữ tỉ lệ */
 }
+[href] {
+  color: rgb(221, 130, 18);
+}
