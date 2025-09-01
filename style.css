@@ -116,7 +116,8 @@ p {
   width: 400px; /* Chiều rộng mặc định cho tất cả ảnh */
   height: auto; /* Chiều cao tự động để giữ tỉ lệ */
 }
-hr {
+hr,
+.h4 {
   clear: both;
 }
 [href] {
@@ -127,4 +128,11 @@ hr {
   color: rgb(221, 130, 18);
   font-family: "Times New Roman", Times, serif;
   vertical-align: middle; /* Căn chữ thẳng hàng với logo */
+}
+.information {
+  padding: 35px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: "Times New Roman";
 }
